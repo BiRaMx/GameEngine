@@ -7,3 +7,5 @@ name = "BiRaMx-Game-Engine"
 version = "0.0.0"
 requires-python = ">=3.8"
 
+[tool.setuptools.packages]
+find = {}
