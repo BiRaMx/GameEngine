@@ -5,12 +5,12 @@
  - grid - объекты для работы с различными сетками
 """
 
-from grid import Grid
+from .grid import Grid
 
 from importlib.metadata import version, PackageNotFoundError
 
 try:
-    __version__ = version("game_engine")
+    __version__ = version("BiRaMx-Game-Engine")
 except PackageNotFoundError:
     __version__ = "unknown"
 
